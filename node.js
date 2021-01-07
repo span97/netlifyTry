@@ -20,7 +20,7 @@ setInterval(function() {
     } 
     
     
-}, 7000); 
+}, 5000); 
 
 //about me
 const openModalButtons = document.querySelectorAll('[data-modal-target]')

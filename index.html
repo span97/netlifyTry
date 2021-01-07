@@ -3,18 +3,15 @@
 <head>
 <title>Portfolio -- Sai Spandana Gali</title>
 <link href="style.css" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="node.js"></script>
+
+<script  defer src="node.js"></script>
 </head>
 
 
 <!-- Background & animion & navbar & title -->
 
     <div id="background" class="backdrop slider">
-      
-
-
-      
+  
 <!-- Background animtion-->
     
 <!-- header -->
@@ -22,7 +19,32 @@
 <!-- navbar -->
      <nav id=top>
         <ul>
-            <li><a href="#">About</a></li>
+              <li><button id="about-button" data-modal-target="#modal">About me</button>
+                  <div class="modal active" id="modal">
+                    <div class="modal-header">
+                      <div class="title"> Hello Guys!</div>
+                      <button data-close-button class="close-button">&times;</button>
+                    </div>
+                    <div class="modal-body">
+          
+                      <p>Welcome to my page, my name is Sai Spandana. A little be about me, I am an Engineer with a passion for web development and Data Science.<br></p>
+                        <p>My belief that technology and humanity should work hand in hand for a better future lead me to pursue my masters
+                        in Computer Engineering with focused study in Artificial intelligence and System Architecture
+                         at the University of Texas at Arlington <br></p>
+                       
+                      
+                      <p>Apart from computers, I am a potterhead and an avid listener to all genres of music. Here is the theme of Harry potter to accompany you as you go through my page.</p>
+                        <div id="harrypotter">
+
+                          <iframe width="100%" height="100" scrolling="no" frameborder="no" 
+                          allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/100793266&color=%232b2017&auto_play=true&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/dayat29"target="_blank" style="color: #cccccc; text-decoration: none;"></a> · <a href="https://soundcloud.com/dayat29/hedwigs-theme-harry-potter" title="Hedwig&#x27;s Theme - Harry Potter Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;"></a></div>
+                      </div>
+
+                  </div>
+                  </div>
+                  
+        </li>
+        <div id="overlay" class="active"></div>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#project">Projects</a></li>
             <li><a href="#">Contact</a></li>
@@ -38,7 +60,7 @@
         
       </section>
       </div>
-    </header>
+</header>
 <!-- Skills & content -->
       <div id="skills" class="Skills">  
 
@@ -121,7 +143,11 @@
 
 
 <footer>
-  <a class="foot" href="#top">Opps! Seems like the page ends here! Lets go back up!</a>
+          <a href="https://github.com/span97" target="_blank"><img class="logo" width="75" height="75" src="images/github.png" alt="logo"></a>
+          <a href="https://www.linkedin.com/in/spandana-gali-b35228114/" target="_blank"><img class="logo" width="75" height="75" src="images/linkedin.png" alt="logo"></a>
+          
+  <a class="foot" href="#top">
+    <br>Opps! Seems like the page ends here! Lets go back up!</a>
 </footer>
 
 </html>

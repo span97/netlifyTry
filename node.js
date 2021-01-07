@@ -7,12 +7,7 @@ var allBackgrounds = [
                        "images/class.jpg",
                        "images/corridor.jpg",
                        "images/quidditch.jpg"
-                       
-                       
-                       
-
-
-                       
+    
 					    ]; 
  
 setInterval(function() { 
@@ -25,7 +20,7 @@ setInterval(function() {
     } 
     
     
-}, 10000); 
+}, 7000); 
 
 //about me
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
